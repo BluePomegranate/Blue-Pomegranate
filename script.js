@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Construct Mailto Link
                 const subject = `Contact from ${name} (Blue Pomegranate Website)`;
                 const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
-                window.location.href = `mailto:ayanlabs.official@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+                window.location.href = `mailto:bluepomegranate.inc@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
 
                 // Reset UI
                 sendBtn.innerText = 'Message Sent!';
